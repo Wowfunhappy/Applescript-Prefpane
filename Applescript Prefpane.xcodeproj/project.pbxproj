@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABB71312251802660044523C /* Applescript_Prefpane.h in Headers */ = {isa = PBXBuildFile; fileRef = ABB71311251802660044523C /* Applescript_Prefpane.h */; };
+		ABB71314251802660044523C /* Applescript_Prefpane.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB71313251802660044523C /* Applescript_Prefpane.m */; };
+		ABB71316251802660044523C /* Applescript_Prefpane.tiff in Resources */ = {isa = PBXBuildFile; fileRef = ABB71315251802660044523C /* Applescript_Prefpane.tiff */; };
+		ABB71319251802660044523C /* Applescript_Prefpane.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB71317251802660044523C /* Applescript_Prefpane.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABB7130C251802660044523C /* Applescript Prefpane.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Applescript Prefpane.prefPane"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB71310251802660044523C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB71311251802660044523C /* Applescript_Prefpane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Applescript_Prefpane.h; sourceTree = "<group>"; };
+		ABB71313251802660044523C /* Applescript_Prefpane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Applescript_Prefpane.m; sourceTree = "<group>"; };
+		ABB71315251802660044523C /* Applescript_Prefpane.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Applescript_Prefpane.tiff; sourceTree = "<group>"; };
+		ABB71318251802660044523C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Applescript_Prefpane.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABB71308251802660044523C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABB71302251802660044523C = {
+			isa = PBXGroup;
+			children = (
+				ABB7130E251802660044523C /* Applescript Prefpane */,
+				ABB7130D251802660044523C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABB7130D251802660044523C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABB7130C251802660044523C /* Applescript Prefpane.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABB7130E251802660044523C /* Applescript Prefpane */ = {
+			isa = PBXGroup;
+			children = (
+				ABB71311251802660044523C /* Applescript_Prefpane.h */,
+				ABB71313251802660044523C /* Applescript_Prefpane.m */,
+				ABB71315251802660044523C /* Applescript_Prefpane.tiff */,
+				ABB71317251802660044523C /* Applescript_Prefpane.xib */,
+				ABB7130F251802660044523C /* Supporting Files */,
+			);
+			path = "Applescript Prefpane";
+			sourceTree = "<group>";
+		};
+		ABB7130F251802660044523C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABB71310251802660044523C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ABB71309251802660044523C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB71312251802660044523C /* Applescript_Prefpane.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ABB7130B251802660044523C /* Applescript Prefpane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB7131C251802660044523C /* Build configuration list for PBXNativeTarget "Applescript Prefpane" */;
+			buildPhases = (
+				ABB71307251802660044523C /* Sources */,
+				ABB71308251802660044523C /* Frameworks */,
+				ABB71309251802660044523C /* Headers */,
+				ABB7130A251802660044523C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Applescript Prefpane";
+			productName = "Applescript Prefpane";
+			productReference = ABB7130C251802660044523C /* Applescript Prefpane.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABB71303251802660044523C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Jonathan Alland";
+				TargetAttributes = {
+					ABB7130B251802660044523C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = ABB71306251802660044523C /* Build configuration list for PBXProject "Applescript Prefpane" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABB71302251802660044523C;
+			productRefGroup = ABB7130D251802660044523C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABB7130B251802660044523C /* Applescript Prefpane */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABB7130A251802660044523C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB71319251802660044523C /* Applescript_Prefpane.xib in Resources */,
+				ABB71316251802660044523C /* Applescript_Prefpane.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABB71307251802660044523C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB71314251802660044523C /* Applescript_Prefpane.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABB71317251802660044523C /* Applescript_Prefpane.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB71318251802660044523C /* Base */,
+			);
+			name = Applescript_Prefpane.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABB7131A251802660044523C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ABB7131B251802660044523C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ABB7131D251802660044523C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Applescript Prefpane/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		ABB7131E251802660044523C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Applescript Prefpane/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABB71306251802660044523C /* Build configuration list for PBXProject "Applescript Prefpane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB7131A251802660044523C /* Debug */,
+				ABB7131B251802660044523C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB7131C251802660044523C /* Build configuration list for PBXNativeTarget "Applescript Prefpane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB7131D251802660044523C /* Debug */,
+				ABB7131E251802660044523C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABB71303251802660044523C /* Project object */;
+}
